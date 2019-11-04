@@ -1,25 +1,25 @@
-var calculator = require('../calculator');
+var calculator = require('../src/calculator');
 
 describe("Simple calculator to add two numbers", function () {
     it("Must add two numbers", function () {
-        expect(calculator.add(0,0)).toEqual(0);
+        expect(calculator.sum(0,0)).toEqual(0);
     });
 });
 
 describe("Simple calculator to add two numbers", function () {
     it("Must add two numbers", function () {
-        expect(calculator.add(-1,-1)).toEqual(-2);
+        expect(calculator.sum(-1,-1)).toEqual(-2);
     });
 });
 
 describe("Simple calculator to add two numbers", function () {
     it("Must add two numbers", function () {
-        expect(calculator.add(4,5)).toEqual(9);
+        expect(calculator.sum(4,5)).toEqual(9);
     });
 });
 describe("Simple calculator that multiplies two numbers", function () {
     it("Must multiply two numbers", function () {
-        expect(calculator.multiply(1,2)).toEqual(2);
+        expect(calculator.product(1,2)).toEqual(2);
     });
 });
 describe("Simple calculator that adds a bunch numbers", function () {
